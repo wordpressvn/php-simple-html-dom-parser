@@ -1,2 +1,29 @@
-# php-simple-html-dom-parser
-PHP Simple HTML DOM Parser with namespace and PHP 7.x / 8.x compatible
+php-simple-html-dom-parser
+==========================
+
+Version 1.9.1 - PHP 8.x compatible
+PHP Simple HTML DOM Parser changelog: https://sourceforge.net/projects/simplehtmldom/files/simplehtmldom/1.9.1/
+
+
+Install
+-------
+
+```
+composer require wordpressvn/php-simple-html-dom-parser
+```
+
+Usage
+-----
+
+```php
+use WPVNTeam\PhpSimple\HtmlDomParser;
+
+...
+$dom = HtmlDomParser::str_get_html( $str );
+or
+$dom = HtmlDomParser::file_get_html( $file_name );
+
+$elems = $dom->find($elem_name);
+...
+
+```
