@@ -19,7 +19,7 @@
         "php": ">=5.3.2"
     },
     "autoload": {
-        "psr-0": { "WPVNTeam\\PhpSimpleHtmlDom\\HtmlDomParser": "src/" }
+        "psr-0": { "WPVNTeam\\PhpSimple\\HtmlDomParser": "src/" }
     },
 	"minimum-stability": "dev"
 }
